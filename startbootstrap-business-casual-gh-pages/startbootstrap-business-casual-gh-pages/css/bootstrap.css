@@ -3985,7 +3985,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   display: block;
   padding: 10px 15px;
 }
-.nav > li > a:hover,
+.nav > li > a:hover
+{
+  background-color: green;
+},
 .nav > li > a:focus {
   text-decoration: none;
   background-color: #eee;
@@ -4810,7 +4813,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   text-align: center;
   list-style: none;
 }
-.pager li {
+
+
+.pager 
+
+
+i {
   display: inline;
 }
 .pager li > a,

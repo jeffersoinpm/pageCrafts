@@ -43,14 +43,36 @@ hr {
 
 .navbar-brand {
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 100;
     letter-spacing: 2px;
+
 }
 
+.Inicio:hover
+{
+     
+     outline: dotted black;
+        display:block;
+
+}
+
+
+#holi
+{
+    display:all;
+}
+
+
+li:hover ul,a {
+display:list-item;
+background:#999;
+position:absolute;
+}
 .navbar-nav {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
+     display:none;
 }
 
 .img-full {
@@ -101,6 +123,10 @@ hr {
     float: none;
     margin: 0 auto 0;
 }
+
+
+
+
 
 footer {
     background: #fff;
@@ -170,7 +196,7 @@ footer p {
         padding: 35px;
     }
 
-    .navbar-nav>li>a {
+    .navbar-navli>a {
         line-height: normal;
     }
 
