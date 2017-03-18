@@ -48,25 +48,20 @@ hr {
 
 }
 
-.Inicio:hover
-{
-     
-     outline: dotted black;
-        display:block;
-
-}
 
 
-#holi
-{
-    display:all;
-}
+
+
+
+
+
 
 
 li:hover ul,a {
 display:list-item;
 background:#999;
 position:absolute;
+
 }
 .navbar-nav {
     text-transform: uppercase;
@@ -123,6 +118,96 @@ position:absolute;
     float: none;
     margin: 0 auto 0;
 }
+
+
+
+
+
+
+            
+            .menu > li {
+               
+
+            }
+
+           
+
+
+            
+            .menu li:hover {
+                
+                
+            
+                
+            }
+            
+
+            
+            
+           
+            .menu li ul {
+                display:none;
+                min-width:200px;
+                padding: 0;
+                text-decoration:none;
+
+
+                
+            }
+            
+            .menu li:hover > ul {
+                display: block;
+                z-index : 1;
+                text-decoration:none;
+
+
+               
+            }
+           
+ .menu  a:link {color:blue;}
+.menu a:visited {color:black;
+text-decoration:none;
+list-style:none;}
+.menu a:hover{text-decoration:none;
+background:grey;
+text-decoration:none;
+list-style:none;}
+.menu a:active {color:white;
+list-style:none;}
+
+.menu li a {list-style:square;
+list-style-position: inside;}
+
+           
+ 
+.titulo a:visited {color:black;
+text-decoration:none;
+list-style:none;
+text-align: center;}
+.titulo a:hover{text-decoration:none
+    list-style:none;
+
+text-decoration:none;
+list-style:none;}
+.titulo a:active {color:white;
+list-style:none;}
+.titulo a {list-style:none;
+    text-align: center;
+    background: transparent;
+
+}
+  hr {border: 2px solid khaki; height: 2px; background-color: darkkhaki;}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
