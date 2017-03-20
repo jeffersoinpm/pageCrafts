@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background: url('../img/local1.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -61,6 +61,8 @@ li:hover ul,a {
 display:list-item;
 background:#999;
 position:absolute;
+
+
 
 }
 .navbar-nav {
@@ -165,7 +167,7 @@ position:absolute;
             }
            
  .menu  a:link {color:blue;}
-.menu a:visited {color:black;
+.menu a:visited {color:white;
 text-decoration:none;
 list-style:none;}
 .menu a:hover{text-decoration:none;
@@ -175,7 +177,7 @@ list-style:none;}
 .menu a:active {color:white;
 list-style:none;}
 
-.menu li a {list-style:square;
+.menu li a {list-style:none;
 list-style-position: inside;}
 
            
@@ -198,6 +200,33 @@ list-style:none;}
 }
   hr {border: 2px solid khaki; height: 2px; background-color: darkkhaki;}
 
+  .imagen li,a{
+
+    
+    list-style: none;
+    background: none;
+    align-items: right;
+
+
+    
+  }
+
+  .imagen p, a:hover {
+font-size:20px;
+background: none;
+
+
+
+}
+.img-index {
+    min-width: 50%;
+
+}
+
+.img-madera{
+    min-width: 30%;
+
+}
 
 
 
@@ -279,10 +308,14 @@ footer p {
 
     .nav>li>a {
         padding: 35px;
+
+
     }
 
     .navbar-navli>a {
         line-height: normal;
+
+
     }
 
     .navbar-nav {
